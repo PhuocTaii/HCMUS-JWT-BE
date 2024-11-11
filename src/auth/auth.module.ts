@@ -6,7 +6,6 @@ import { UserSchema } from 'src/user/schema/users.schema';
 import { UserModule } from 'src/user/user.module';
 import { ConfigModule } from '@nestjs/config';
 import { JwtModule } from '@nestjs/jwt';
-import { AuthGuard } from './auth.guard';
 
 @Module({
   imports: [
