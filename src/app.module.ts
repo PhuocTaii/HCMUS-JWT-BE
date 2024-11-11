@@ -19,8 +19,7 @@ import { AuthGuard } from './auth/auth.guard';
     }),
     MongooseModule.forRoot(process.env.MONGO_URI),
     UserModule,
-    AuthModule,
-    AuthGuard
+    AuthModule
   ],
   controllers: [AppController],
   providers: [AppService],
